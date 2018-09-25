@@ -1,0 +1,86 @@
+<html>
+<head>
+<title>Sign up page</title>
+<body background="8.jpg">
+<font color="white">
+<form action="/action_page.php">
+<style>
+
+
+form {
+  
+  margin: 0 auto;
+  width: 400px;
+  
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+
+form div + div {
+  margin-top: 1em;
+}
+
+
+
+</style>
+
+<fieldset>
+    <legend><strong><i>SIGN UP TO J</i></strong></legend>
+<b>First Name:</b><br>
+<input type="text" name="firstname">
+<br><br>
+<b>Last Name:</b><br>
+<input type="text" name="lastname">
+<br><br>
+<b>Mobile Number:</b><br>
+<input type="number" name="mobilenumber">
+<br><br>
+<b>Date of Birth:</b>(dd/mm/yy)<br>
+<input type="number" style="width: 40px"><select name="Month">
+    <option value="january" selected>January</option>
+    <option value="february">February</option>
+    <option value="march">March</option>
+    <option value="april">April</option>
+    <option value="may">May</option>
+    <option value="june">June</option>
+    <option value="july">July</option>
+    <option value="august">August</option>
+    <option value="september">September</option>
+    <option value="october">October</option>
+    <option value="november">November</option>
+    <option value="december">December</option>
+    
+  </select><input type="number" style="width: 60px"><br><br>
+
+<b>Choose your Gender:</b><br>
+<input type="radio"name="gender"value="male">Male<br>
+<input type="radio"name="gender"value="female">Female<br>
+<input type="radio"name="gender"value="other">Other<br><br>
+<b>Choose your Location:</b><br>
+ <select name="Location">
+    <option value="india" selected>India</option>
+    <option value="malaysiya">Malaysiya</option>
+    <option value="england">England</option>
+    <option value="america">America</option>
+    <option value="australia">Australia</option>
+  </select><br><br>
+<b>User Name:<br>
+<input type="text" name="username">@j.com</b>
+<br><br>
+<b>Create Password:</b><br>
+<input type="password" name="crpassword">
+<br><br>
+<b>Confirm Password:</b><br>
+<input type="password" name="crpassword">
+<br><br>
+
+<button type="button" onclick="alert('Confirm Account')">Create Account</button><br>
+
+</fieldset>
+</form>
+</font>
+
+</body>
+</head>
+</html>
